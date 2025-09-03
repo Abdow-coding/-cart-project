@@ -1,0 +1,87 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    background-image: url(https://png.pngtree.com/back_origin_pic/03/98/19/a73032287c545ef848a4af8e786ee51d.jpg);
+}
+h1{
+    margin-left: 10%;
+}
+
+
+ .container{
+    
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
+
+    column-gap: 20px;
+    width: calc(70%/3);
+    margin-left: 10%;
+    
+
+}
+
+img.border{
+    border-radius: 10px;
+    border: black solid 3px;
+}
+
+img:hover{
+    border-radius: 7px;
+    opacity: 0.6;
+    cursor: pointer;
+
+}
+
+.sidebar {
+    display: grid
+;
+    align-content: stretch;
+    justify-items: center;
+    align-items: start;
+    justify-content: space-around;
+    background: radial-gradient(#f6f6f7, transparent);
+    width: 30%;
+    text-align: center;
+    margin-left: 70%;
+    position: absolute;
+    cursor: pointer;
+}  
+
+
+
+h3 {
+    color: rgb(171, 13, 13);
+}
+
+.btn {
+    border-radius: 7px;
+    position: absolute;
+    margin: 14% -10% 0% -12%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.7;
+    color: red;
+
+}
+
+
+p.opacity{
+    opacity: 0.5;
+}
+
+p.price{
+    color: red;
+    
+}
+.content span:hover,
+p.price:hover{
+    font-size: x-large;
+    cursor: pointer;
+
+
+}
